@@ -1,0 +1,56 @@
+
+h1{ 
+   text-align: center;
+}
+
+
+.collegas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.collega{
+    flex-shrink: 1;
+    flex-grow: 0;
+    border-radius: 25px;
+    text-align: center;
+    border-radius: 25px;
+    padding: 40px;
+    background-color: antiquewhite;
+}
+
+.collega:nth-child(1) img[alt="colors"]{
+    object-position: left;
+}
+.collega:nth-child(2) img[alt="colors"]{
+    object-position: center;
+}
+.collega:nth-child(3) img[alt="colors"]{
+    object-position: right;
+}
+.collega h2+img{
+    height: 20px;
+    width: 20px;
+    object-fit: cover;
+    text-align: center;
+}
+.avatar > img {
+    display: flex;
+    object-position: 100% 10%;
+    border-radius: 5%;
+    flex: 1;
+    width: 200px;
+    height: 200px;
+    object-position: center;
+    left: 10px;
+    right: 10px;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+}
+
+ul{
+    text-align: left;
+}
+
